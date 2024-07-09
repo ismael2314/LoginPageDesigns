@@ -1,0 +1,28 @@
+body{
+    overflow-x:hidden !important;
+}
+.rot-signup{
+    transform: rotateZ(10deg) translateX(50%) !important; 
+    
+    /* z-index: -1; */
+}
+.rot-signin{
+    transform: rotateZ(-10deg) translateX(-50%) !important; 
+}
+.slide-transilate{
+    /* transform: translateX(-50%) !important; */
+    transition: transform .5s,z-index 2s;
+    perspective: 100px;
+}
+.pop{
+
+}
+
+@keyframes signanime {
+    0%{
+        transform: translate(0%) ;
+    }
+    100%{
+        
+    }
+}
